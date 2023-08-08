@@ -1,0 +1,22 @@
+
+/* @font-face {
+    font-family: iran;
+    src: url(../font/iranfont.ttf);
+}
+ */
+ 
+*{
+    direction: rtl;
+    /* font-family: ; */
+    box-sizing: border-box;/*المان ها از باکس خود خارج نمیشوند*/
+
+}
+
+body{
+    font-size: 16px;/*بقیه بر اساس این */
+    margin: 0px;/*مارجین های مرورگر از بین برود*/
+}
+
+a{
+    text-decoration: none;/*خط زیر پاک */
+}

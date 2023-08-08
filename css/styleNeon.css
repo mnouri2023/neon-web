@@ -1,0 +1,104 @@
+
+header{
+ 
+  font-size: 1em;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: rgb(240, 239, 239);
+    box-shadow: 0px 3px 15px 0px rgba(145, 145, 145, 0.5);
+    border-radius: 70px;
+   /*  border: 0.5px solid rgb(213, 213, 213); */
+}
+header nav .nav-right{
+    padding: 0px 10px;
+    display: flex;/*برای اظمینان (اندازه متفاوت ایکون ها)*/
+    align-items: center;
+}
+header nav .nav-right a{
+    color:#444;
+    margin: 0px 10px;
+    padding: 0px 5px;
+    font-size: 1.5em;
+}
+header nav .nav-left{
+    
+   padding: 0px 30px;
+}
+header nav .nav-left .register-login-btn{
+    color:#444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    margin: 10px 10px;
+    box-shadow: 0px 2px 10px 0px rgba(194, 194, 194, 0.5);
+    border-radius: 15px;
+    
+}
+
+header nav .nav-left .register-login-btn i{
+ font-size: 1.5em;
+ margin: 5px;
+}
+header nav .nav-left .register-login-btn a{ 
+    margin: 0px 10px;
+}
+
+
+.slider {
+    position: relative;
+    font-size: 1em;
+}
+
+.slider .slides {
+    
+}
+
+.slider .slides .item {
+    position: relative;
+    display: none;
+}
+
+
+.slider .slides .item img{
+    width: 100%;
+   /*  opacity:0. ; */
+}
+
+.slider .slides .item span{
+    position: absolute;
+    right: 15%;
+    top: 45%;
+    color: white;
+    font-size: 1.5em;
+    
+}
+
+.slider .slides .active{ /*بعداز نان کار میکنه*/
+    display: block;
+}
+
+
+.slider .buttons{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+}
+
+.slider .buttons i{
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.slider .buttons i:hover{
+    color: rgba(255,255,255,.6);
+}
+
+
+
